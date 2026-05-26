@@ -26,7 +26,7 @@ return {
       -------- TS JOKERS --------
       --------------------------
 
-      j_mog_lionhawkTS = {
+      j_mog_lionHawkTS = {
         name = "Lion Hawk",
         text = {
           "Retriggers each played card for each played card",

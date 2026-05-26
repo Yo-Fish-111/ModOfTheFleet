@@ -18,7 +18,7 @@ SMODS.Atlas {
 }
 
 SMODS.Rarity {
-  key = "taikyokushogi",
+  key = "taikyokuShogi",
   pools = { ["Joker"] = true },
   default_weight = 0,
   badge_colour = HEX('faecc0'),

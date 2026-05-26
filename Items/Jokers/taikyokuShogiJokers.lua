@@ -1,9 +1,9 @@
 SMODS.Joker{ --Lion Hawk
-    key = "lionhawkTS",
+    key = "lionHawkTS",
     config = { extra = { repetitions = 1, emult = 1.1 } },
     pos = { x = 0, y = 0 },
     cost = 1,
-    rarity = "mog_taikyokushogi",
+    rarity = "mog_taikyokuShogi",
     blueprint_compat = true,
     eternal_compat = true,
     unlocked = true,
@@ -27,14 +27,6 @@ SMODS.Joker{ --Lion Hawk
             }
         end
 
-        local target_joker = nil
-        for i = 1, #G.jokers.cards do
-            if G.jokers.cards[i] == card then other_joker = G.jokers.cards[i+1] end
-        end
-        local valid = SMODS.blueprint_effect(card, other_joker, context)
-        if valid then
-            valid.colour = G.C.BLUE
-        end
-        return valid
+
     end
 }
