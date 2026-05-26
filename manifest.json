@@ -1,0 +1,19 @@
+{
+	"id": "Mod_of_Games",
+	"name": "Mod of Games",
+	"display_name": "Games",
+	"author": [
+		"Yo Fish"
+	],
+	"description": "An expansion for MoT adding jokers from board games",
+	"prefix": "mog",
+	"main_file": "Main.lua",
+	"priority": 1,
+	"badge_colour": "fffb69",
+	"badge_text_colour": "ff2600",
+	"version": "0.0.1",
+	"dependencies": [
+		"Talisman",
+		"Mod_of_Theseus"
+	]
+}
