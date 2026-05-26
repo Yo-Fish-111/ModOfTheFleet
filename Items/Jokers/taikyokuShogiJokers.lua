@@ -28,16 +28,13 @@ SMODS.Joker{ --Lion Hawk
         end
 
         local target_joker = nil
-
-        local my_pos = nil
         for i = 1, #G.jokers.cards do
-            if G.jokers.cards[i] == card then
-                my_pos = i
-                break
-            end
+            if G.jokers.cards[i] == card then other_joker = G.jokers.cards[i+1] end
         end
-        target_joker = (my_pos and my_pos < #G.jokers.cards) and G.jokers.cards[my_pos + 1] or nil
-
-        return SMODS.blueprint_effect(card, target_joker, context)
+        local valid = SMODS.blueprint_effect(card, other_joker, context)
+        if valid then
+            valid.colour = G.C.BLUE
+        end
+        return valid
     end
 }
