@@ -1,13 +1,13 @@
 
-if not ModofGames then
-  ModofGames = {}
+if not ModOfTheFleet then
+  ModOfTheFleet = {}
 end
 
-ModofGames = {
+ModOfTheFleet = {
   show_options_button = false,
 }
 
-ModofGames = SMODS.current_mod
+ModOfTheFleet = SMODS.current_mod
 
 SMODS.Atlas {
   object_type = "Atlas",

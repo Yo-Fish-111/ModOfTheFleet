@@ -1,11 +1,11 @@
 {
-	"id": "Mod_of_Games",
-	"name": "Mod of Games",
-	"display_name": "Games",
+	"id": "Mod_of_The_Fleet",
+	"name": "Mod of The Fleet",
+	"display_name": "The Fleet",
 	"author": [
 		"Yo Fish"
 	],
-	"description": "An expansion for MoT adding jokers from board games",
+	"description": "An expansion for MoT adding content which has no place in any reasonable mod",
 	"prefix": "mog",
 	"main_file": "Main.lua",
 	"priority": 1,
