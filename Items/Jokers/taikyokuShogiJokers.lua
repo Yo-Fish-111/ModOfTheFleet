@@ -21,7 +21,7 @@ SMODS.Joker{ --Lion Hawk
                 message = localize('k_again_ex')
             }
         end
-        if context.individual and context.cardarea == G.play and not context.blueprint then
+        if context.individual and context.cardarea == G.play then
             return {
                 e_mult = card.ability.extra.emult
             }
